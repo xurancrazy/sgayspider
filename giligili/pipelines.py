@@ -5,6 +5,10 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import logging
+
+import scrapy
+from scrapy.exceptions import DropItem
+from scrapy.pipelines.images import ImagesPipeline
 from twisted.enterprise import adbapi
 import MySQLdb
 import MySQLdb.cursors
@@ -14,6 +18,17 @@ class TutorialPipeline(object):
     def process_item(self, item, spider):
         return item
 
+class CustomImagePipeline(ImagesPipeline):
+    def get_media_requests(self, item, info):
+        image_url = item['img']
+        return scrapy.Request(image_url)
+
+    def item_completed(self, results, item, info):
+        image_paths = [x['path'] for ok, x in results if ok]
+        if not image_paths:
+            raise DropItem("Item contains no images")
+        item['img_filepath'] = image_paths[0].split('/')[1]
+        return item
 
 class MySQLStoreGiliGiliPipeline(object):
     def __init__(self, dbpool):
@@ -46,16 +61,19 @@ class MySQLStoreGiliGiliPipeline(object):
         title = item['title'].decode("utf-8")
         publishTime = item['publishTime'].decode("utf-8")
         imgHref = item['img'].decode("utf-8")
-
+        img_filepath = item['img_filepath']
         s = 'select * from movies where fanhao = \'%s\''%(fanhao)
         conn.execute(s)
         ret = conn.fetchone()
         if ret:
-            logger.info("%s exists in movies"%fanhao)
+            if img_filepath:
+                s = 'update movies set imgHref = \'%s\' where fanhao = \'%s\''%(img_filepath,fanhao)
+                conn.execute(s)
+                logger.info("%s exists in movies"%fanhao)
         else:
             #insert movies table
             logger.info("begin insert database")
-            s ='insert into movies (fanhao, title, teacher, publishTime, imgHref) VALUES (\'%s\', \'%s\', \'%s\', \'%s\', \'%s\')'%(fanhao, title, teacher, publishTime,imgHref)
+            s ='insert into movies (fanhao, title, teacher, publishTime, imgHref) VALUES (\'%s\', \'%s\', \'%s\', \'%s\', \'%s\')'%(fanhao, title, teacher, publishTime,img_filepath if img_filepath else imgHref)
             conn.execute(s)
             #insert teachers table
             s = 'select * from teachers where name = \'%s\''%(teacher)
@@ -69,4 +87,4 @@ class MySQLStoreGiliGiliPipeline(object):
                 conn.execute(s)
 
     def handleError(self,failure, item, spider):
-        logger.error("errorOn->",item['fanhao'].decode("utf-8"))
+        logger.error("database execute error")

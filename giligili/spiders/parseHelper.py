@@ -3,10 +3,11 @@ from giligili.items import TutorialItem
 baseUrl = r'http://www.nh87.cn'
 
 def parseActorsListHelper(response):
-    allActor = response.xpath('//*[@id="all"]/div[1]')
-    hrefUrl = allActor.xpath('a/@href').extract()[0]
-    targetUrl = '%s%s'%(baseUrl, hrefUrl)
-    yield targetUrl
+    allActor = response.xpath('//*[@id="all"]/div')
+    for actor in allActor:
+        hrefUrl = actor.xpath('a/@href').extract()[0]
+        targetUrl = '%s%s'%(baseUrl, hrefUrl)
+        yield targetUrl
 
 def parseActorHomeHelper(response):
     allYears = response.xpath('//*[@id="contrainer"]/div[1]/div[1]/div[2]/div/button')

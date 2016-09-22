@@ -13,7 +13,9 @@ class TutorialItem(scrapy.Item):
     # name = scrapy.Field()
     fanhao = scrapy.Field()
     avActor = scrapy.Field()
-    img = scrapy.Field()
     publishTime = scrapy.Field()
     title = scrapy.Field()
     url = scrapy.Field()
+    img = scrapy.Field() #nh87's img url
+    img_result = scrapy.Field() #save request result for nh87's img url
+    img_filepath = scrapy.Field() #native's img url

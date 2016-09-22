@@ -58,6 +58,7 @@ DOWNLOAD_DELAY = 3
 # Disable cookies (enabled by default)
 COOKIES_ENABLED = False
 
+
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
 
@@ -86,10 +87,14 @@ DOWNLOADER_MIDDLEWARES = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
 
+IMAGES_STORE = r'F:\images'
+CUSTOMIMAGEPIPELINE_IMAGES_URLS_FIELD = 'img'
+CUSTOMIMAGEPIPELINE_IMAGES_RESULT_FIELD = 'img_result'
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'giligili.pipelines.MySQLStoreGiliGiliPipeline': 300,
+    'giligili.pipelines.CustomImagePipeline': 100,
+    'giligili.pipelines.MySQLStoreGiliGiliPipeline': 300
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
