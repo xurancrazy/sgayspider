@@ -1,12 +1,12 @@
+
+
 # Importing base64 library because we'll need it ONLY in case if the proxy we are going to use requires authentication
-import base64
 # Start your middleware class
 import random
 
 from scrapy.downloadermiddlewares.useragent import UserAgentMiddleware
-import logging
 
-logger = logging.getLogger()
+
 class CustomUserAgentMiddleware(UserAgentMiddleware):
     # overwrite process request
 

@@ -15,7 +15,7 @@ SPIDER_MODULES = ['giligili.spiders']
 NEWSPIDER_MODULE = 'giligili.spiders'
 
 # start MySQL database configure setting
-MYSQL_HOST = 'localhost'
+MYSQL_HOST = '192.168.1.100'
 MYSQL_DBNAME = 'giligili'
 MYSQL_USERNAME = 'root'
 MYSQL_PASSWD = 'xuran'
@@ -87,7 +87,7 @@ DOWNLOADER_MIDDLEWARES = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
 
-IMAGES_STORE = r'F:\images'
+IMAGES_STORE = '/home/xuran/images'
 CUSTOMIMAGEPIPELINE_IMAGES_URLS_FIELD = 'img'
 CUSTOMIMAGEPIPELINE_IMAGES_RESULT_FIELD = 'img_result'
 # Configure item pipelines
