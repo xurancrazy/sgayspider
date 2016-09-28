@@ -29,4 +29,4 @@ class giligiliSpider_Main(scrapy.Spider):
         return parseContentHelper(response, item)
 
     def handleError(self,failure):
-        logger.error("HTTP Error-->"%(repr(failure)))
+        logger.error("HTTP Error-->%s"%(repr(failure)))
