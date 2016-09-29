@@ -14,7 +14,7 @@ class giligiliSpider_Main(scrapy.Spider):
 
     def parseActorHome(self, response):
         for url in parseActorHomeHelper(response):
-            yield scrapy.Request(url, callback=self.parseActorTargetYear,errback=self.handleError)
+            yield scrapy.Request(url, dont_filter=True,callback=self.parseActorTargetYear,errback=self.handleError)
 
     def parseActorTargetYear(self, response):
         for item in parseActorTargetYearHelper(response):

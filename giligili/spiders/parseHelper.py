@@ -32,6 +32,8 @@ def parseActorsListHelper(response):
 def parseActorHomeHelper(response):
     try:
         allYears = response.xpath('//*[@id="contrainer"]/div[1]/div[1]/div[2]/div/button')
+        if len(allYears) == 0:
+            yield response.url
         for year in allYears:
             hrefUrl = year.xpath('a/@href').extract()[0]
             targetUrl = '%s%s' % (baseUrl, hrefUrl)

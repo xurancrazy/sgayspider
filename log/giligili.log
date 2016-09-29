@@ -1,0 +1,3 @@
+2016-09-29 22:41:51,081 - pipelines.py:32 - ERROR - Item contains no images,url = http://www.nh87.cn/uploads/1607/ofje00035pl.jpg
+2016-09-29 22:51:19,532 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-09-29 23:24:16,200 - parseHelper.py:57 - ERROR - Exception-->parseActorTargetYearHelper:list index out of range
