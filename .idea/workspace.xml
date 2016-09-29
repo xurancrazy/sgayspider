@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38b512a3-89ec-44e9-91d4-29f50b8d19d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py" afterPath="$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/spiders/parseHelper.py" afterPath="$PROJECT_DIR$/giligili/spiders/parseHelper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/giligili.log" afterPath="$PROJECT_DIR$/log/giligili.log" />
-    </list>
+    <list default="true" id="38b512a3-89ec-44e9-91d4-29f50b8d19d5" name="Default" comment="" />
     <ignored path="tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -85,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/log/giligili.log">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -800,7 +795,7 @@
     <entry file="file://$PROJECT_DIR$/log/giligili.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
