@@ -15,7 +15,7 @@ SPIDER_MODULES = ['giligili.spiders']
 NEWSPIDER_MODULE = 'giligili.spiders'
 
 # start MySQL database configure setting
-MYSQL_HOST = '192.168.1.100'
+MYSQL_HOST = '192.168.1.103'
 MYSQL_DBNAME = 'giligili'
 MYSQL_USERNAME = 'root'
 MYSQL_PASSWD = 'xuran'
@@ -87,7 +87,10 @@ DOWNLOADER_MIDDLEWARES = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
 
-IMAGES_STORE = '/home/xuran/images'
+# for av cover images
+# IMAGES_STORE = '/home/xuran/images/cover'
+# for av actor icon images
+IMAGES_STORE = '/home/xuran/images/cover'
 CUSTOMIMAGEPIPELINE_IMAGES_URLS_FIELD = 'img'
 CUSTOMIMAGEPIPELINE_IMAGES_RESULT_FIELD = 'img_result'
 # Configure item pipelines
@@ -96,6 +99,7 @@ ITEM_PIPELINES = {
     'giligili.pipelines.CustomImagePipeline': 100,
     'giligili.pipelines.MySQLStoreGiliGiliPipeline': 300
 }
+
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

@@ -4,6 +4,7 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
+import re
 
 import scrapy
 from scrapy.exceptions import DropItem
@@ -14,12 +15,6 @@ import pymysql.cursors
 from giligili.spiders.parseHelper import logger
 from giligili.spiders.parseHelper import r
 
-
-
-class TutorialPipeline(object):
-    def process_item(self, item, spider):
-        return item
-
 class CustomImagePipeline(ImagesPipeline):
     def get_media_requests(self, item, info):
         image_url = item['img']
@@ -29,9 +24,10 @@ class CustomImagePipeline(ImagesPipeline):
     def item_completed(self, results, item, info):
         image_paths = [x['path'] for ok, x in results if ok]
         if not image_paths:
-            logger.error("Item contains no images,url = %s"%(item['img']))
-            raise DropItem("Item contains no images")
-        item['img_filepath'] = image_paths[0].split('/')[1]
+            item['img_filepath'] = ''
+            logger.error("Item contains no images,imgurl = %s , url = %s"%(item['img'],item['url']))
+        else:
+            item['img_filepath'] = image_paths[0].split('/')[1]
         return item
 
 class MySQLStoreGiliGiliPipeline(object):
@@ -66,6 +62,8 @@ class MySQLStoreGiliGiliPipeline(object):
         publishTime = item['publishTime']
         imgHref = item['img']
         img_filepath = item['img_filepath']
+        classification = item['classification']
+
         s = 'select * from movies where fanhao = \'%s\''%(fanhao)
         conn.execute(s)
         ret = conn.fetchone()
@@ -73,8 +71,9 @@ class MySQLStoreGiliGiliPipeline(object):
             if img_filepath:
                 s = 'update movies set imgHref = \'%s\' where fanhao = \'%s\''%(img_filepath,fanhao)
                 conn.execute(s)
-                r.sadd('url:crawled', item['url'])
                 logger.debug("%s exists in movies"%(fanhao))
+                r.sadd('url', item['url'])
+                self.regex(r, item)
         else:
             #insert movies table
             logger.debug("begin insert movies table,fanhao = %s"%(fanhao))
@@ -96,7 +95,32 @@ class MySQLStoreGiliGiliPipeline(object):
                 s = 'insert into teachers(name) VALUES (\'%s\')'%(teacher)
                 conn.execute(s)
                 logger.debug("complete insert teachers table,fanhao = %s" % (fanhao))
-            r.sadd('url:crawled',item['url'])
+            r.sadd('url',item['url'])
+            self.regex(r,item)
+
     def handleError(self,failure, item):
         logger.error("database execute error,fanhao = %s"%(item['fanhao']))
         logger.error(failure)
+
+    def regex(self,r,item):
+        classification = item['classification']
+        res = re.search('定义于：.*正式发片', classification, flags=0)
+        if not res.group():
+            return
+        pre = res.group(0)
+        pre2 = pre[4:-5]
+        logger.debug("fanhao:%s , classification:%s" % (item['fanhao'],classification))
+        matrix = pre2.split("、")
+        length = len(matrix)
+        if length == 0:
+            return
+        self.saveclassfication(r,matrix,length,item)
+
+    def saveclassfication(self,r,matrix,length,item):
+        logger.debug("start saveclassfication")
+        for i in range(length):
+            s= matrix[i].strip()
+            if len(s)==0:
+                continue
+            r.sadd('classification',s)
+            r.sadd(('classification:%s'%s),item['fanhao'])

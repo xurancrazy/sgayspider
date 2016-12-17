@@ -5,14 +5,13 @@ import redis
 
 from giligili.items import TutorialItem
 
-
 handler = logging.FileHandler('log/giligili.log')  # 实例化handler
 fmt = '%(asctime)s - %(filename)s:%(lineno)s - %(levelname)s - %(message)s'
 formatter = logging.Formatter(fmt)  # 实例化formatter
 handler.setFormatter(formatter)  # 为handler添加formatter
 logger = logging.getLogger('giligili')  # 获取名为giligili的logger
 logger.addHandler(handler)  # 为logger添加handler
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.ERROR)
 
 
 r =redis.StrictRedis(host='localhost',port=6379,db=0)
@@ -27,7 +26,7 @@ def parseActorsListHelper(response):
             targetUrl = '%s%s'%(baseUrl, hrefUrl)
             yield targetUrl
         except Exception as e:
-            logger.error("Exception-->parseActorsListHelper:%s"%(e))
+            logger.error("Exception-->parseActorsListHelper:%s ,url = %s"%(e,response.url))
 
 def parseActorHomeHelper(response):
     try:
@@ -39,7 +38,7 @@ def parseActorHomeHelper(response):
             targetUrl = '%s%s' % (baseUrl, hrefUrl)
             yield targetUrl
     except Exception as e:
-        logger.error("Exception-->parseActorHomeHelper:%s" % (e))
+        logger.error("Exception-->parseActorHomeHelper:%s ,url = %s" % (e,response.url))
 
 def parseActorTargetYearHelper(response):
     allMovies = response.xpath('//*[@id="content"]/li')
@@ -54,12 +53,13 @@ def parseActorTargetYearHelper(response):
             item['publishTime'] = publishTime
             yield item
         except Exception as e:
-            logger.error("Exception-->parseActorTargetYearHelper:%s"%(e))
+            logger.error("Exception-->parseActorTargetYearHelper:%s , url = %s"%(e,response.url))
 
 def parseContentHelper(response,item):
     try:
         item['fanhao'] = response.xpath('//*[@id="contrainer"]/div/h1/text()').extract()[0]
-        item['avActor'] = response.xpath('//*[@id="contrainer"]/div/div[1]/p/span[2]/a/text()').extract()[0]
+        item['avActor'] = response.xpath('//div[@class="weizhi2"]/a[2]/text()').extract()[0]
+        item['classification'] = response.xpath('//div[@class="artCon"]/p').extract()[0]
         imgUrlList = response.xpath('//div[@class="artCon"]/img/@src').extract()
         if len(imgUrlList) == 0:
             imgUrlList = response.xpath('//div[@class="artCon"]/p[2]/img/@src').extract()
@@ -72,4 +72,5 @@ def parseContentHelper(response,item):
         item['img'] = '%s%s' % (baseUrl, imgUrl)
         return item
     except Exception as e:
-        logger.error("Exception-->parseContentHelper:teacher = %s,fanhao = %s,and %s" % (item['avActor'],item['fanhao'],e))
+        logger.error("Exception-->parseContentHelper:%s ,url = %s" % (e, response.url))
+

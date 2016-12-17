@@ -19,3 +19,4 @@ class TutorialItem(scrapy.Item):
     img = scrapy.Field() #nh87's img url
     img_result = scrapy.Field() #save request result for nh87's img url
     img_filepath = scrapy.Field() #native's img url
+    classification = scrapy.Field()

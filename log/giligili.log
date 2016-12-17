@@ -1,3 +1,12 @@
-2016-09-29 22:41:51,081 - pipelines.py:32 - ERROR - Item contains no images,url = http://www.nh87.cn/uploads/1607/ofje00035pl.jpg
-2016-09-29 22:51:19,532 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
-2016-09-29 23:24:16,200 - parseHelper.py:57 - ERROR - Exception-->parseActorTargetYearHelper:list index out of range
+2016-12-11 13:37:58,661 - parseHelper.py:56 - ERROR - Exception-->parseActorTargetYearHelper:list index out of range , url = http://www.nh87.cn/jingxiangjulia/2014/
+2016-12-11 13:42:17,923 - pipelines.py:28 - ERROR - Item contains no images,imgurl = http://www.nh87.cn/uploads/allimg/150703/now_printing.jpg , url = http://www.nh87.cn/boduoyejieyi/2015/EMBQ-010.html
+2016-12-11 13:42:20,480 - pipelines.py:28 - ERROR - Item contains no images,imgurl = http://www.nh87.cn/uploads/allimg/151009/wanz00371pl.jpg , url = http://www.nh87.cn/boduoyejieyi/2015/WANZ-371.html
+2016-12-11 14:06:43,864 - parseHelper.py:56 - ERROR - Exception-->parseActorTargetYearHelper:list index out of range , url = http://www.nh87.cn/qingshanhua/
+2016-12-11 14:46:48,124 - pipelines.py:28 - ERROR - Item contains no images,imgurl = http://www.nh87.cn/uploads/allimg/1512/miad00862pl.jpg , url = http://www.nh87.cn/zheyuanyouxiangli/2016/MIAD-862.html
+2016-12-11 14:59:55,563 - pipelines.py:28 - ERROR - Item contains no images,imgurl = http://www.nh87.cn/uploads/allimg/150715/wanz00284pl.jpg , url = http://www.nh87.cn/qiannaixingmei/2015/WANZ-284.html
+2016-12-11 15:05:04,094 - pipelines.py:28 - ERROR - Item contains no images,imgurl = http://www.nh87.cn/uploads/allimg/150727/now_printing.jpg , url = http://www.nh87.cn/mameiyouzhen/2012/AAJ-030.html
+2016-12-11 15:06:20,256 - pipelines.py:28 - ERROR - Item contains no images,imgurl = http://www.nh87.cn/uploads/allimg/1602/h_307mazj00027pl.jpg , url = http://www.nh87.cn/youcunqianjia/2015/MAZJ-027.html
+2016-12-11 15:13:36,991 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-11 15:14:50,300 - pipelines.py:28 - ERROR - Item contains no images,imgurl = http://www.nh87.cn/uploads/allimg/1511/rbd00378pl.jpg , url = http://www.nh87.cn/xiyexiang/2012/RBD-378.html
+2016-12-11 15:25:34,338 - pipelines.py:28 - ERROR - Item contains no images,imgurl = http://www.nh87.cnhttp://www.giga-web.jp/db_alts/tggp/tggp30/pac_l.jpg , url = http://www.nh87.cn/shuicaili/2011/TGGP-30.html
+2016-12-11 15:42:30,930 - pipelines.py:28 - ERROR - Item contains no images,imgurl = http://www.nh87.cn/uploads/allimg/150801/now_printing.jpg , url = http://www.nh87.cn/macangyou/2010/PMH-184.html
