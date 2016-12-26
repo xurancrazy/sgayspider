@@ -14,9 +14,9 @@ logger.addHandler(handler)  # 为logger添加handler
 logger.setLevel(logging.ERROR)
 
 
-r =redis.StrictRedis(host='localhost',port=6379,db=0)
+r =redis.StrictRedis(host='localhost',password='giligilisgay',port=6379,db=0)
 
-baseUrl = r'http://192.168.1.104:8080'
+baseUrl = r'http://www.nh87.cn'
 
 def parseActorsListHelper(response):
     allActor = response.xpath('//*[@id="all"]/div')

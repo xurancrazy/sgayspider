@@ -15,10 +15,10 @@ SPIDER_MODULES = ['giligili.spiders']
 NEWSPIDER_MODULE = 'giligili.spiders'
 
 # start MySQL database configure setting
-MYSQL_HOST = '192.168.1.104'
-MYSQL_DBNAME = 'giligiliforspider'
-MYSQL_USERNAME = 'root'
-MYSQL_PASSWD = 'xuran'
+MYSQL_HOST = 'localhost'
+MYSQL_DBNAME = 'giligili'
+MYSQL_USERNAME = 'xr'
+MYSQL_PASSWD = 'giligili'
 # end of MySQL database configure setting
 
 
@@ -50,7 +50,7 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-# DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -92,7 +92,8 @@ DOWNLOADER_MIDDLEWARES = {
 # for av cover images
 # IMAGES_STORE = '/home/xuran/images/cover'
 # for av actor icon images
-IMAGES_STORE = '/home/xuran/images/cover'
+# IMAGES_STORE = '/home/xuran/images/cover'
+IMAGES_STORE = '/root/xuran/images/cover'
 CUSTOMIMAGEPIPELINE_IMAGES_URLS_FIELD = 'img'
 CUSTOMIMAGEPIPELINE_IMAGES_RESULT_FIELD = 'img_result'
 # Configure item pipelines

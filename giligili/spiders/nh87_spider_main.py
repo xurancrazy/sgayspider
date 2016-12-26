@@ -5,7 +5,7 @@ from giligili.spiders.parseHelper import *
 class giligiliSpider_Main(scrapy.Spider):
     name = "giligili"
     start_urls = [
-        "http://192.168.1.104:8080/teachers"
+        "http://www.nh87.cn/find.html"
     ]
 
     def parse(self, response):
@@ -19,7 +19,7 @@ class giligiliSpider_Main(scrapy.Spider):
     def parseActorTargetYear(self, response):
         for item in parseActorTargetYearHelper(response):
             url = item['url']
-            if r.sismember('urlfortest',url):
+            if r.sismember('url',url):
                 logger.info("url = %s,already be scraped"%(url))
                 continue
             yield scrapy.Request(url, meta={'item': item}, callback=self.parseContent,errback=self.handleError)

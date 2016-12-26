@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38b512a3-89ec-44e9-91d4-29f50b8d19d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/middlewares.py" afterPath="$PROJECT_DIR$/giligili/middlewares.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/pipelines.py" afterPath="$PROJECT_DIR$/giligili/pipelines.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/settings.py" afterPath="$PROJECT_DIR$/giligili/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py" afterPath="$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/spiders/parseHelper.py" afterPath="$PROJECT_DIR$/giligili/spiders/parseHelper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/giligili.log" afterPath="$PROJECT_DIR$/log/giligili.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moverediskeytolocalmachine.py" afterPath="$PROJECT_DIR$/moverediskeytolocalmachine.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redisclassification.py" afterPath="$PROJECT_DIR$/redisclassification.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unionredisset.py" afterPath="$PROJECT_DIR$/unionredisset.py" />
     </list>
     <ignored path="tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,7 +77,7 @@
       <file leaf-file-name="giligili.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log/giligili.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2938">
+            <state relative-caret-position="0">
               <caret line="0" column="93" selection-start-line="0" selection-start-column="93" selection-end-line="0" selection-end-column="93" />
               <folding />
             </state>
@@ -93,8 +87,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/giligili/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="546">
+              <caret line="95" column="41" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -103,7 +97,7 @@
       <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/giligili/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="364">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#151#164#0" expanded="true" />
@@ -115,8 +109,8 @@
       <file leaf-file-name="nh87_spider_main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,8 +119,8 @@
       <file leaf-file-name="parseHelper.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/giligili/spiders/parseHelper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+            <state relative-caret-position="286">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,16 +149,16 @@
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/giligili/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="97" column="30" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="30" />
+            <state relative-caret-position="650">
+              <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
               <folding>
                 <element signature="e#192#201#0" expanded="true" />
-                <marker date="1482763450188" expanded="true" signature="2160:2202" ph="select * fro... movies" />
-                <marker date="1482763450188" expanded="true" signature="2333:2389" ph="update movie... " />
-                <marker date="1482763450188" expanded="true" signature="2730:2843" ph="insert into movies... " />
-                <marker date="1482763450188" expanded="true" signature="3163:3205" ph="select * fro... teachers" />
-                <marker date="1482763450188" expanded="true" signature="3403:3464" ph="update teach... " />
-                <marker date="1482763450188" expanded="true" signature="3716:3758" ph="insert into teachers... " />
+                <marker date="1482765022439" expanded="true" signature="2160:2202" ph="select * fro... movies" />
+                <marker date="1482765022439" expanded="true" signature="2333:2389" ph="update movie... " />
+                <marker date="1482765022439" expanded="true" signature="2723:2836" ph="insert into movies... " />
+                <marker date="1482765022439" expanded="true" signature="3156:3198" ph="select * fro... teachers" />
+                <marker date="1482765022439" expanded="true" signature="3396:3457" ph="update teach... " />
+                <marker date="1482765022439" expanded="true" signature="3709:3751" ph="insert into teachers... " />
               </folding>
             </state>
           </provider>
@@ -213,10 +207,10 @@
         <option value="$PROJECT_DIR$/unionredisset.py" />
         <option value="$PROJECT_DIR$/redislocaltoremote.py" />
         <option value="$PROJECT_DIR$/giligili/middlewares.py" />
-        <option value="$PROJECT_DIR$/giligili/settings.py" />
-        <option value="$PROJECT_DIR$/giligili/pipelines.py" />
         <option value="$PROJECT_DIR$/giligili/spiders/parseHelper.py" />
+        <option value="$PROJECT_DIR$/giligili/settings.py" />
         <option value="$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py" />
+        <option value="$PROJECT_DIR$/giligili/pipelines.py" />
       </list>
     </option>
   </component>
@@ -229,8 +223,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="width" value="1615" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -276,7 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,6 +322,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -680,27 +674,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19513543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19757807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19311064" sideWeight="0.50193477" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36325678" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32463464" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36325678" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32463464" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1015,56 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/giligili/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="97" column="30" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="30" />
-          <folding>
-            <element signature="e#192#201#0" expanded="true" />
-            <marker date="1482763450188" expanded="true" signature="2160:2202" ph="select * fro... movies" />
-            <marker date="1482763450188" expanded="true" signature="2333:2389" ph="update movie... " />
-            <marker date="1482763450188" expanded="true" signature="2730:2843" ph="insert into movies... " />
-            <marker date="1482763450188" expanded="true" signature="3163:3205" ph="select * fro... teachers" />
-            <marker date="1482763450188" expanded="true" signature="3403:3464" ph="update teach... " />
-            <marker date="1482763450188" expanded="true" signature="3716:3758" ph="insert into teachers... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/giligili/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#151#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/giligili/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/giligili.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2938">
-          <caret line="0" column="93" selection-start-line="0" selection-start-column="93" selection-end-line="0" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -1081,10 +1025,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/giligili/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+          <folding>
+            <element signature="e#192#201#0" expanded="true" />
+            <marker date="1482765022439" expanded="true" signature="2160:2202" ph="select * fro... movies" />
+            <marker date="1482765022439" expanded="true" signature="2333:2389" ph="update movie... " />
+            <marker date="1482765022439" expanded="true" signature="2723:2836" ph="insert into movies... " />
+            <marker date="1482765022439" expanded="true" signature="3156:3198" ph="select * fro... teachers" />
+            <marker date="1482765022439" expanded="true" signature="3396:3457" ph="update teach... " />
+            <marker date="1482765022439" expanded="true" signature="3709:3751" ph="insert into teachers... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giligili/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#151#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giligili/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="95" column="41" selection-start-line="95" selection-start-column="41" selection-end-line="95" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/giligili.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="93" selection-start-line="0" selection-start-column="93" selection-end-line="0" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/giligili/spiders/parseHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+        <state relative-caret-position="286">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
