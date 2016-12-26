@@ -21,6 +21,7 @@ class CustomUserAgentMiddleware(UserAgentMiddleware):
 
     def process_request(self, request, spider):
         # Set the location of the proxy
+        # request.meta['proxy'] = "http://122.6.168.144:8998"
         user_agent = random.choice(self.user_agents)
         if user_agent:
             request.headers.setdefault('User-Agent',user_agent)

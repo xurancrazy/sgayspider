@@ -72,7 +72,7 @@ class MySQLStoreGiliGiliPipeline(object):
                 s = 'update movies set imgHref = \'%s\' where fanhao = \'%s\''%(img_filepath,fanhao)
                 conn.execute(s)
                 logger.debug("%s exists in movies"%(fanhao))
-                r.sadd('url', item['url'])
+                r.sadd('urlfortest', item['url'])
                 self.regex(r, item)
         else:
             #insert movies table
@@ -95,7 +95,7 @@ class MySQLStoreGiliGiliPipeline(object):
                 s = 'insert into teachers(name) VALUES (\'%s\')'%(teacher)
                 conn.execute(s)
                 logger.debug("complete insert teachers table,fanhao = %s" % (fanhao))
-            r.sadd('url',item['url'])
+            r.sadd('urlfortest',item['url'])
             self.regex(r,item)
 
     def handleError(self,failure, item):
@@ -122,5 +122,5 @@ class MySQLStoreGiliGiliPipeline(object):
             s= matrix[i].strip()
             if len(s)==0:
                 continue
-            r.sadd('classification',s)
-            r.sadd(('classification:%s'%s),item['fanhao'])
+            r.sadd('category',"%s"%(s.decode('utf-8')))
+            r.sadd(('category:%s'%s),item['fanhao'])

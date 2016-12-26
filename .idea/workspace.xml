@@ -3,13 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="38b512a3-89ec-44e9-91d4-29f50b8d19d5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/items.py" afterPath="$PROJECT_DIR$/giligili/items.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/middlewares.py" afterPath="$PROJECT_DIR$/giligili/middlewares.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/pipelines.py" afterPath="$PROJECT_DIR$/giligili/pipelines.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/redistest.py" afterPath="$PROJECT_DIR$/giligili/redistest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/settings.py" afterPath="$PROJECT_DIR$/giligili/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py" afterPath="$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/giligili/spiders/parseHelper.py" afterPath="$PROJECT_DIR$/giligili/spiders/parseHelper.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/giligili.log" afterPath="$PROJECT_DIR$/log/giligili.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/moverediskeytolocalmachine.py" afterPath="$PROJECT_DIR$/moverediskeytolocalmachine.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redisclassification.py" afterPath="$PROJECT_DIR$/redisclassification.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unionredisset.py" afterPath="$PROJECT_DIR$/unionredisset.py" />
     </list>
     <ignored path="tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,16 +25,17 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tutorial$test.coverage" NAME="test Coverage Results" MODIFIED="1480778630437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tutorial$moverediskeytolocalmachine.coverage" NAME="moverediskeytolocalmachine Coverage Results" MODIFIED="1481963976831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tutorial$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1474384134439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/giligili" />
-    <SUITE FILE_PATH="coverage/tutorial$main.coverage" NAME="main Coverage Results" MODIFIED="1481434366706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tutorial$regextest.coverage" NAME="regextest Coverage Results" MODIFIED="1480430711554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tutorial$middlewares.coverage" NAME="middlewares Coverage Results" MODIFIED="1482681778390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/giligili" />
+    <SUITE FILE_PATH="coverage/tutorial$main.coverage" NAME="main Coverage Results" MODIFIED="1482763694873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tutorial$dmoz_spider.coverage" NAME="dmoz_spider Coverage Results" MODIFIED="1473253646463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tutorial/spiders" />
     <SUITE FILE_PATH="coverage/tutorial$loggertest.coverage" NAME="loggertest Coverage Results" MODIFIED="1474634371063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/giligili" />
+    <SUITE FILE_PATH="coverage/tutorial$redisclassification.coverage" NAME="redisclassification Coverage Results" MODIFIED="1482332091154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tutorial$unionredisset.coverage" NAME="unionredisset Coverage Results" MODIFIED="1482415893172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tutorial$moverediskeytolocalmachine.coverage" NAME="moverediskeytolocalmachine Coverage Results" MODIFIED="1481963976831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tutorial$regextest.coverage" NAME="regextest Coverage Results" MODIFIED="1480430711554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tutorial$redistest.coverage" NAME="redistest Coverage Results" MODIFIED="1475339581531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/giligili" />
-    <SUITE FILE_PATH="coverage/tutorial$redisclassification.coverage" NAME="redisclassification Coverage Results" MODIFIED="1481963927201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tutorial$formatdata.coverage" NAME="formatdata Coverage Results" MODIFIED="1476549504384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tutorial$unionredisset.coverage" NAME="unionredisset Coverage Results" MODIFIED="1481964019401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tutorial$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1474043104619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/pythonWorkspace/test1" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -57,7 +60,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="redisclassification.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="redisclassification.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redisclassification.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="104">
@@ -67,22 +70,102 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="moverediskeytolocalmachine.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/moverediskeytolocalmachine.py">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="52">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unionredisset.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unionredisset.py">
+      <file leaf-file-name="giligili.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/giligili.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+            <state relative-caret-position="-2938">
+              <caret line="0" column="93" selection-start-line="0" selection-start-column="93" selection-end-line="0" selection-end-column="93" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/giligili/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/giligili/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#151#164#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nh87_spider_main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parseHelper.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/giligili/spiders/parseHelper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="moverediskeytolocalmachine.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moverediskeytolocalmachine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redistest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/giligili/redistest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/giligili/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="97" column="30" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="30" />
+              <folding>
+                <element signature="e#192#201#0" expanded="true" />
+                <marker date="1482763450188" expanded="true" signature="2160:2202" ph="select * fro... movies" />
+                <marker date="1482763450188" expanded="true" signature="2333:2389" ph="update movie... " />
+                <marker date="1482763450188" expanded="true" signature="2730:2843" ph="insert into movies... " />
+                <marker date="1482763450188" expanded="true" signature="3163:3205" ph="select * fro... teachers" />
+                <marker date="1482763450188" expanded="true" signature="3403:3464" ph="update teach... " />
+                <marker date="1482763450188" expanded="true" signature="3716:3758" ph="insert into teachers... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,22 +200,23 @@
         <option value="D:/pythonWorkspace/test1/test1.py" />
         <option value="$PROJECT_DIR$/giligili/main.py" />
         <option value="$PROJECT_DIR$/giligili/loggertest.py" />
-        <option value="$PROJECT_DIR$/giligili/middlewares.py" />
         <option value="$PROJECT_DIR$/giligili/spiders/nh87_spider_for_icon.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/giligili/redistest.py" />
         <option value="$PROJECT_DIR$/formatdata.py" />
         <option value="$PROJECT_DIR$/giligili/items.py" />
         <option value="$PROJECT_DIR$/regextest.py" />
-        <option value="$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py" />
-        <option value="$PROJECT_DIR$/giligili/pipelines.py" />
-        <option value="$PROJECT_DIR$/giligili/spiders/parseHelper.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/giligili/settings.py" />
         <option value="$PROJECT_DIR$/log/giligili.log" />
         <option value="$PROJECT_DIR$/redisclassification.py" />
         <option value="$PROJECT_DIR$/moverediskeytolocalmachine.py" />
         <option value="$PROJECT_DIR$/unionredisset.py" />
+        <option value="$PROJECT_DIR$/redislocaltoremote.py" />
+        <option value="$PROJECT_DIR$/giligili/middlewares.py" />
+        <option value="$PROJECT_DIR$/giligili/settings.py" />
+        <option value="$PROJECT_DIR$/giligili/pipelines.py" />
+        <option value="$PROJECT_DIR$/giligili/spiders/parseHelper.py" />
+        <option value="$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py" />
       </list>
     </option>
   </component>
@@ -145,8 +229,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="1615" />
-    <option name="height" value="1026" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -192,7 +276,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,20 +292,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="GiliGiliSpider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutorial" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GiliGiliSpider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -259,7 +329,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,7 +347,7 @@
       <recent name="D:\GiliGiliSpider" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.unionredisset">
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,20 +420,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="middlewares" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/giligili" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="tutorial" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/giligili/middlewares.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -581,15 +651,15 @@
       <item index="1" class="java.lang.String" itemvalue="Python.moverediskeytolocalmachine" />
       <item index="2" class="java.lang.String" itemvalue="Python.redisclassification" />
       <item index="3" class="java.lang.String" itemvalue="Python.unionredisset" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.middlewares" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.unionredisset" />
-        <item index="1" class="java.lang.String" itemvalue="Python.moverediskeytolocalmachine" />
-        <item index="2" class="java.lang.String" itemvalue="Python.redisclassification" />
-        <item index="3" class="java.lang.String" itemvalue="Python.main" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.middlewares" />
+        <item index="2" class="java.lang.String" itemvalue="Python.unionredisset" />
+        <item index="3" class="java.lang.String" itemvalue="Python.redisclassification" />
+        <item index="4" class="java.lang.String" itemvalue="Python.moverediskeytolocalmachine" />
       </list>
     </recent_temporary>
   </component>
@@ -610,16 +680,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24091779" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19513543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19311064" sideWeight="0.50193477" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37823275" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36325678" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -629,7 +700,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -671,8 +741,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Program Files (x86)/python2.7/Lib/site-packages/scrapy/settings/__init__.py" />
-    <entry file="file://D:/Program Files (x86)/python2.7/Lib/site-packages/scrapy/pipelines/images.py" />
     <entry file="file://D:/Program Files (x86)/python2.7/Lib/site-packages/twisted/internet/defer.py" />
     <entry file="file://D:/Program Files (x86)/python2.7/Lib/site-packages/scrapy/spiders/__init__.py" />
     <entry file="file://D:/Program Files (x86)/python2.7/Lib/logging/__init__.py" />
@@ -818,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/giligili/redistest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/giligili/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -881,13 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/giligili/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/giligili/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -899,13 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/giligili/spiders/parseHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -923,73 +970,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/giligili/settings.py">
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/redis/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="182">
+          <caret line="565" column="8" selection-start-line="565" selection-start-column="8" selection-end-line="565" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/giligili/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2444">
-          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding>
-            <element signature="e#192#201#0" expanded="false" />
-            <marker date="1480503784579" expanded="true" signature="2160:2202" ph="select * fro... movies" />
-            <marker date="1480503784579" expanded="true" signature="2333:2389" ph="update movie... " />
-            <marker date="1480503784579" expanded="true" signature="2723:2836" ph="insert into movies... " />
-            <marker date="1480503784579" expanded="true" signature="3156:3198" ph="select * fro... teachers" />
-            <marker date="1480503784579" expanded="true" signature="3396:3457" ph="update teach... " />
-            <marker date="1480503784579" expanded="true" signature="3709:3751" ph="insert into teachers... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/giligili.log">
+    <entry file="file://$PROJECT_DIR$/redislocaltoremote.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/scrapy/core/downloader/middleware.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="355">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/redis/client.py">
+    <entry file="file://$PROJECT_DIR$/unionredisset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="565" column="8" selection-start-line="565" selection-start-column="8" selection-end-line="565" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="78">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/moverediskeytolocalmachine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="52">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unionredisset.py">
+    <entry file="file://$PROJECT_DIR$/giligili/redistest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+        <state relative-caret-position="104">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giligili/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="97" column="30" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="30" />
+          <folding>
+            <element signature="e#192#201#0" expanded="true" />
+            <marker date="1482763450188" expanded="true" signature="2160:2202" ph="select * fro... movies" />
+            <marker date="1482763450188" expanded="true" signature="2333:2389" ph="update movie... " />
+            <marker date="1482763450188" expanded="true" signature="2730:2843" ph="insert into movies... " />
+            <marker date="1482763450188" expanded="true" signature="3163:3205" ph="select * fro... teachers" />
+            <marker date="1482763450188" expanded="true" signature="3403:3464" ph="update teach... " />
+            <marker date="1482763450188" expanded="true" signature="3716:3758" ph="insert into teachers... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giligili/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#151#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giligili/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/giligili.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2938">
+          <caret line="0" column="93" selection-start-line="0" selection-start-column="93" selection-end-line="0" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -998,6 +1077,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/giligili/spiders/parseHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
           <folding />
         </state>
       </provider>

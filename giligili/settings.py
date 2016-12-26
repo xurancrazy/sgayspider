@@ -15,8 +15,8 @@ SPIDER_MODULES = ['giligili.spiders']
 NEWSPIDER_MODULE = 'giligili.spiders'
 
 # start MySQL database configure setting
-MYSQL_HOST = '192.168.1.103'
-MYSQL_DBNAME = 'giligili'
+MYSQL_HOST = '192.168.1.104'
+MYSQL_DBNAME = 'giligiliforspider'
 MYSQL_USERNAME = 'root'
 MYSQL_PASSWD = 'xuran'
 # end of MySQL database configure setting
@@ -50,7 +50,7 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 3
+# DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -77,15 +77,17 @@ DEFAULT_REQUEST_HEADERS = {
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
+    # 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware':None,
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
-    'giligili.middlewares.CustomUserAgentMiddleware': 543,
+    'giligili.middlewares.CustomUserAgentMiddleware': 100,
+    # 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware': 110,
 }
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
-#EXTENSIONS = {
+# EXTENSIONS = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
-#}
+# }
 
 # for av cover images
 # IMAGES_STORE = '/home/xuran/images/cover'

@@ -16,7 +16,7 @@ logger.setLevel(logging.ERROR)
 
 r =redis.StrictRedis(host='localhost',port=6379,db=0)
 
-baseUrl = r'http://www.nh87.cn'
+baseUrl = r'http://192.168.1.104:8080'
 
 def parseActorsListHelper(response):
     allActor = response.xpath('//*[@id="all"]/div')

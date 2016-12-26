@@ -10,3 +10,121 @@
 2016-12-11 15:14:50,300 - pipelines.py:28 - ERROR - Item contains no images,imgurl = http://www.nh87.cn/uploads/allimg/1511/rbd00378pl.jpg , url = http://www.nh87.cn/xiyexiang/2012/RBD-378.html
 2016-12-11 15:25:34,338 - pipelines.py:28 - ERROR - Item contains no images,imgurl = http://www.nh87.cnhttp://www.giga-web.jp/db_alts/tggp/tggp30/pac_l.jpg , url = http://www.nh87.cn/shuicaili/2011/TGGP-30.html
 2016-12-11 15:42:30,930 - pipelines.py:28 - ERROR - Item contains no images,imgurl = http://www.nh87.cn/uploads/allimg/150801/now_printing.jpg , url = http://www.nh87.cn/macangyou/2010/PMH-184.html
+2016-12-26 22:44:49,686 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:44:55,672 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:44:55,894 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:44:56,086 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:44:59,183 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:45:00,258 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:45:00,852 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:45:02,130 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:45:02,284 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:45:02,684 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:45:02,929 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:45:03,101 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:45:03,798 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:45:04,003 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:45:04,156 - nh87_spider_main.py:32 - ERROR - HTTP Error--><twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2016-12-26 22:48:18,136 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/MXBD-207
+2016-12-26 22:48:18,159 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/MXGS-811
+2016-12-26 22:48:18,184 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/SNIS-507
+2016-12-26 22:48:18,200 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/JUY-024
+2016-12-26 22:48:18,211 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/MXBD-229
+2016-12-26 22:48:18,224 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/SNIS-530
+2016-12-26 22:48:18,232 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/SNIS-552
+2016-12-26 22:48:18,291 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/SNIS-371
+2016-12-26 22:48:18,630 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/SNIS-307
+2016-12-26 22:48:18,710 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/MXBD-202
+2016-12-26 22:48:18,717 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/SNIS-327
+2016-12-26 22:48:18,732 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/ONSD-889
+2016-12-26 22:48:18,745 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/MXBD-211
+2016-12-26 22:48:18,754 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/MEYD-174
+2016-12-26 22:48:18,804 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/MXBD-205
+2016-12-26 22:48:18,818 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/JUX-770
+2016-12-26 22:48:18,923 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/JUX-724
+2016-12-26 22:48:18,932 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/VENU-592
+2016-12-26 22:48:18,943 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/VOSS-018
+2016-12-26 22:48:18,980 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/GENT-102
+2016-12-26 22:48:18,990 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/JUX-789
+2016-12-26 22:48:19,019 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/VICD-322
+2016-12-26 22:48:19,033 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/JUSD-701
+2016-12-26 22:48:19,053 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/BBI-146
+2016-12-26 22:48:19,121 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/KKBD-013
+2016-12-26 22:48:19,159 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-491
+2016-12-26 22:48:19,179 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-496
+2016-12-26 22:48:19,335 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-505
+2016-12-26 22:48:19,366 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-481
+2016-12-26 22:48:19,378 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-354
+2016-12-26 22:48:19,391 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/SNIS-815
+2016-12-26 22:48:19,411 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-107
+2016-12-26 22:48:19,420 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-348
+2016-12-26 22:48:19,429 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-311
+2016-12-26 22:48:19,601 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-319
+2016-12-26 22:48:19,615 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-301
+2016-12-26 22:48:19,631 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-110
+2016-12-26 22:48:19,676 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/XV-737
+2016-12-26 22:48:19,949 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-143
+2016-12-26 22:48:19,980 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-115
+2016-12-26 22:48:20,019 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-152
+2016-12-26 22:48:20,162 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-120
+2016-12-26 22:48:20,285 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-126
+2016-12-26 22:48:20,380 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-146
+2016-12-26 22:48:20,399 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-137
+2016-12-26 22:48:20,414 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-133
+2016-12-26 22:48:20,428 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-130
+2016-12-26 22:48:20,443 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-148
+2016-12-26 22:48:20,451 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/KKRD-136
+2016-12-26 22:48:20,492 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-157
+2016-12-26 22:48:20,570 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-288
+2016-12-26 22:48:20,576 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-328
+2016-12-26 22:48:20,581 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-167
+2016-12-26 22:48:20,591 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/SRXV-736
+2016-12-26 22:48:20,597 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-277
+2016-12-26 22:48:20,607 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-158
+2016-12-26 22:48:20,617 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-178
+2016-12-26 22:48:20,660 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/AZRD-172
+2016-12-26 22:48:20,823 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-381
+2016-12-26 22:48:20,908 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-392
+2016-12-26 22:48:20,941 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-399
+2016-12-26 22:48:21,029 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PBD-088
+2016-12-26 22:48:21,135 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-410
+2016-12-26 22:48:21,145 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-440
+2016-12-26 22:48:21,161 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-373
+2016-12-26 22:48:21,202 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-335
+2016-12-26 22:48:21,234 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-421
+2016-12-26 22:48:21,298 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-365
+2016-12-26 22:48:21,306 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-460
+2016-12-26 22:48:21,322 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-452
+2016-12-26 22:48:21,334 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/KK-203
+2016-12-26 22:48:21,340 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-475
+2016-12-26 22:48:21,444 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-471
+2016-12-26 22:48:21,524 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/SHKD-445
+2016-12-26 22:48:21,614 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-528
+2016-12-26 22:48:21,724 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/KAWD-526
+2016-12-26 22:48:21,732 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-514
+2016-12-26 22:48:21,819 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/KAWD-561
+2016-12-26 22:48:21,828 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/KAWD-538
+2016-12-26 22:48:21,857 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-521
+2016-12-26 22:48:21,894 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/KAWD-550
+2016-12-26 22:48:21,918 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/KAWD-604
+2016-12-26 22:48:21,925 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PBD-122
+2016-12-26 22:48:21,933 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/KAWD-571
+2016-12-26 22:48:22,052 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PBD-146
+2016-12-26 22:48:22,068 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-574
+2016-12-26 22:48:22,077 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/KAWD-582
+2016-12-26 22:48:22,237 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PGD-565
+2016-12-26 22:48:22,268 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/KAWD-613
+2016-12-26 22:48:22,314 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/SDMU-215
+2016-12-26 22:48:22,322 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/IENE-521
+2016-12-26 22:48:22,328 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/BBI-136
+2016-12-26 22:48:22,337 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/SDMU-176
+2016-12-26 22:48:22,365 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/NTR-007
+2016-12-26 22:48:22,401 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/KWBD-170
+2016-12-26 22:48:22,487 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/BBI-138
+2016-12-26 22:48:22,490 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/BBI-142
+2016-12-26 22:48:22,496 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/HBAD-282
+2016-12-26 22:48:22,500 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/BBI-144
+2016-12-26 22:48:22,504 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/PBD-198
+2016-12-26 22:48:22,512 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/WSS-258
+2016-12-26 22:48:22,526 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/IESP-606
+2016-12-26 22:48:22,551 - parseHelper.py:75 - ERROR - Exception-->parseContentHelper:list index out of range ,url = http://192.168.1.104:8080/movies/BBI-140
