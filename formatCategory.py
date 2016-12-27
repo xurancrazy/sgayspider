@@ -1,6 +1,6 @@
 import redis
 
-r = redis.StrictRedis(host='localhost')
+r = redis.StrictRedis(host='localhost',password='giligilispider')
 
 keys = r.smembers("category")
 for key in keys:
@@ -11,5 +11,5 @@ for key in keys:
         realmovie=movie.decode('utf-8')
         if realmovie[0]!='"':
             print(realmovie)
-            # r.sadd(realkey,'"%s"'%realmovie)
-            # r.srem(realkey,realmovie)
+            r.sadd(realkey,'"%s"'%realmovie)
+            r.srem(realkey,realmovie)
