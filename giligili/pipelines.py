@@ -122,5 +122,5 @@ class MySQLStoreGiliGiliPipeline(object):
             if len(s)==0:
                 continue
             r.sadd('category','"%s"'%s)
-            r.sadd(('category:%s'%s),item['fanhao'])
+            r.sadd(('category:%s'%s),'"%s"'%item['fanhao'])
             r.sadd('url',item['url'])
