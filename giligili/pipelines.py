@@ -56,12 +56,12 @@ class MySQLStoreGiliGiliPipeline(object):
 
     #将每行更新或写入数据库中
     def upOrInsert(self, conn, item, spider):
-        fanhao = item['fanhao']
-        teacher = item['avActor']
-        title = item['title']
-        publishTime = item['publishTime']
-        imgHref = item['img']
-        img_filepath = item['img_filepath']
+        fanhao = item['fanhao'].strip()
+        teacher = item['avActor'].strip()
+        title = item['title'].strip()
+        publishTime = item['publishTime'].strip()
+        imgHref = item['img'].strip()
+        img_filepath = item['img_filepath'].strip()
         classification = item['classification']
         print("fanhao.type=%s,imgHref.type=%s,img_filepath.type=%s"%type(fanhao),type(imgHref),type(img_filepath))
 
