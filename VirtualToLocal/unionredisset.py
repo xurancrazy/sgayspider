@@ -1,6 +1,6 @@
 import redis
 
-rlocal = redis.StrictRedis(host='localhost')
+rlocal = redis.StrictRedis(host='192.168.1.104', password='giligili')
 
 
 def unionkey(deskey, *sourcekeys):
