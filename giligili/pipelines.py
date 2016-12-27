@@ -24,7 +24,7 @@ class CustomImagePipeline(ImagesPipeline):
     def item_completed(self, results, item, info):
         image_paths = [x['path'] for ok, x in results if ok]
         if not image_paths:
-            item['img_filepath'] = ''
+            item['img_filepath'] = 'imagenotfound-placeholder.png'
             logger.error("Item contains no images,imgurl = %s , url = %s"%(item['img'],item['url']))
         else:
             item['img_filepath'] = image_paths[0].split('/')[1]
@@ -63,6 +63,7 @@ class MySQLStoreGiliGiliPipeline(object):
         imgHref = item['img']
         img_filepath = item['img_filepath']
         classification = item['classification']
+        print("fanhao.type=%s,imgHref.type=%s,img_filepath.type=%s"%type(fanhao),type(imgHref),type(img_filepath))
 
         s = 'select * from movies where fanhao = \'%s\''%(fanhao)
         conn.execute(s)
@@ -72,7 +73,6 @@ class MySQLStoreGiliGiliPipeline(object):
                 s = 'update movies set imgHref = \'%s\' where fanhao = \'%s\''%(img_filepath,fanhao)
                 conn.execute(s)
                 logger.debug("%s exists in movies"%(fanhao))
-                r.sadd('url', item['url'])
                 self.regex(r, item)
         else:
             #insert movies table
@@ -96,6 +96,7 @@ class MySQLStoreGiliGiliPipeline(object):
                 conn.execute(s)
                 logger.debug("complete insert teachers table,fanhao = %s" % (fanhao))
             self.regex(r,item)
+        r.sadd('url:crawled:webpage', item['url'])
 
     def handleError(self,failure, item):
         logger.error("database execute error,fanhao = %s"%(item['fanhao']))
@@ -123,4 +124,4 @@ class MySQLStoreGiliGiliPipeline(object):
                 continue
             r.sadd('category','"%s"'%s)
             r.sadd(('category:%s'%s),'"%s"'%item['fanhao'])
-            r.sadd('url',item['url'])
+

@@ -19,7 +19,7 @@ class giligiliSpider_Main(scrapy.Spider):
     def parseActorTargetYear(self, response):
         for item in parseActorTargetYearHelper(response):
             url = item['url']
-            if r.sismember('url',url):
+            if r.sismember('url:crawled:webpage',url):
                 logger.info("url = %s,already be scraped"%(url))
                 continue
             yield scrapy.Request(url, meta={'item': item}, callback=self.parseContent,errback=self.handleError)
