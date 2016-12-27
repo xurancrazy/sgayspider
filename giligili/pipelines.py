@@ -63,7 +63,7 @@ class MySQLStoreGiliGiliPipeline(object):
         imgHref = item['img'].strip()
         img_filepath = item['img_filepath'].strip()
         classification = item['classification']
-        print("fanhao.type=%s,imgHref.type=%s,img_filepath.type=%s"%type(fanhao),type(imgHref),type(img_filepath))
+        print("fanhao.type=%s,imgHref.type=%s,img_filepath.type=%s"%(type(fanhao),type(imgHref),type(img_filepath)))
 
         s = 'select * from movies where fanhao = \'%s\''%(fanhao)
         conn.execute(s)

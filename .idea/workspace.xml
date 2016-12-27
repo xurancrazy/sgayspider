@@ -89,8 +89,8 @@
       <file leaf-file-name="nh87_spider_main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="563">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -151,16 +151,16 @@
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/giligili/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="81">
               <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding>
                 <element signature="e#192#201#0" expanded="true" />
-                <marker date="1482855202781" expanded="true" signature="2352:2394" ph="select * fro... movies" />
-                <marker date="1482855202781" expanded="true" signature="2525:2581" ph="update movie... " />
-                <marker date="1482855202781" expanded="true" signature="2872:2985" ph="insert into movies... " />
-                <marker date="1482855202781" expanded="true" signature="3305:3347" ph="select * fro... teachers" />
-                <marker date="1482855202781" expanded="true" signature="3545:3606" ph="update teach... " />
-                <marker date="1482855202781" expanded="true" signature="3858:3900" ph="insert into teachers... " />
+                <marker date="1482855607409" expanded="true" signature="2354:2396" ph="select * fro... movies" />
+                <marker date="1482855607409" expanded="true" signature="2527:2583" ph="update movie... " />
+                <marker date="1482855607409" expanded="true" signature="2874:2987" ph="insert into movies... " />
+                <marker date="1482855607409" expanded="true" signature="3307:3349" ph="select * fro... teachers" />
+                <marker date="1482855607409" expanded="true" signature="3547:3608" ph="update teach... " />
+                <marker date="1482855607409" expanded="true" signature="3860:3902" ph="insert into teachers... " />
               </folding>
             </state>
           </provider>
@@ -1108,8 +1108,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/giligili/spiders/nh87_spider_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="563">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
@@ -1118,16 +1118,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/giligili/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="81">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
             <element signature="e#192#201#0" expanded="true" />
-            <marker date="1482855202781" expanded="true" signature="2352:2394" ph="select * fro... movies" />
-            <marker date="1482855202781" expanded="true" signature="2525:2581" ph="update movie... " />
-            <marker date="1482855202781" expanded="true" signature="2872:2985" ph="insert into movies... " />
-            <marker date="1482855202781" expanded="true" signature="3305:3347" ph="select * fro... teachers" />
-            <marker date="1482855202781" expanded="true" signature="3545:3606" ph="update teach... " />
-            <marker date="1482855202781" expanded="true" signature="3858:3900" ph="insert into teachers... " />
+            <marker date="1482855607409" expanded="true" signature="2354:2396" ph="select * fro... movies" />
+            <marker date="1482855607409" expanded="true" signature="2527:2583" ph="update movie... " />
+            <marker date="1482855607409" expanded="true" signature="2874:2987" ph="insert into movies... " />
+            <marker date="1482855607409" expanded="true" signature="3307:3349" ph="select * fro... teachers" />
+            <marker date="1482855607409" expanded="true" signature="3547:3608" ph="update teach... " />
+            <marker date="1482855607409" expanded="true" signature="3860:3902" ph="insert into teachers... " />
           </folding>
         </state>
       </provider>
