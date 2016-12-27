@@ -1,6 +1,6 @@
 import redis
 
-r = redis.StrictRedis(host='localhost',password='giligilispider')
+r = redis.StrictRedis(host='localhost',password='giligilisgay')
 
 keys = r.smembers("category")
 for key in keys:
